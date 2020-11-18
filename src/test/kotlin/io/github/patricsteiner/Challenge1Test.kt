@@ -10,9 +10,6 @@ class Challenge1Test {
     @Test
     fun test() {
         with(challenge1) {
-            assertEquals(-1, findClosestBank("", ""))
-            assertEquals(-1, findClosestBank("1,1", ""))
-            assertEquals(-1, findClosestBank("", "1,1"))
             assertEquals(0, findClosestBank("1,1", "1,1"))
             assertEquals(0, findClosestBank("1,1;2,2", "1,2"))
             assertEquals(1, findClosestBank("1,1;2,2", "2,2"))
