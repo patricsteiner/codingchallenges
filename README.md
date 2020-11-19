@@ -5,15 +5,15 @@ Lösungen können auf der jeweiligen Wiki Unterseite als Kommentar gepostet werd
 
 Ihr dürft **optional** auch ein zweit-Ziel verfolgen, zum Beispiel eine Lösung darauf auszulegen, dass sie sich in einem der folgenden Kriterien besonders gut schlägt:
 
-Clean und gut verständlich
-Testbar
-Kurz (wenig code)
-Clever
-Abstrakt
-Effizient/performant
-Verwirrend
-Enterprise-ready
-Spassig
-...
+- Clean und gut verständlich
+- Testbar
+- Kurz (wenig code)
+- Clever
+- Abstrakt
+- Effizient/performant
+- Verwirrend
+- Enterprise-ready
+- Spassig
+- ...
 
 Have fun 😀👩‍💻👨‍💻👾
