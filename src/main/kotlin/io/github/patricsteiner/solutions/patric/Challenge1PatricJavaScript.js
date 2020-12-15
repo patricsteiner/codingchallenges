@@ -1,10 +1,12 @@
 const findClosestBank = (banks, partner) => {
-    banks = banks.split(";").map(it => it.split(","));
     partner = partner.split(",");
-    return banks.map(it => ((partner[0] - it[0]) ** 2 + (partner[1] - it[1]) ** 2) ** .5)
+    return banks.split(";").map(it => it.split(","))
+        .map(it => ((partner[0] - it[0]) ** 2 + (partner[1] - it[1]) ** 2) ** .5)
         .reduce((prev, dist, idx) =>
             prev.dist > dist ? {idx, dist} : prev, {idx: -1, dist: 10e9}).idx;
 }
+
+
 
 // testcases:
 console.log(3 === findClosestBank("-1,1;1,1;2,2;1,-3;2,1;0,1;0,2;1,0;2,-1", "1,-2"))

@@ -1,4 +1,4 @@
-package io.github.patricsteiner
+package io.github.patricsteiner.solutions.patric
 
 import kotlin.math.pow
 import kotlin.math.sqrt

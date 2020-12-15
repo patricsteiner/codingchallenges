@@ -1,4 +1,4 @@
-package io.github.patricsteiner;
+package io.github.patricsteiner.solutions.patric;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.pow;
@@ -12,6 +12,8 @@ public class Challenge1PatricJava {
      * @param banks   List of bank coordinates in the form "x1,y1;x2,y2;x3,y3"
      * @param partner Partner coordinate in the form "x,y"
      * @return The index of the bank closest to the partner (euclidean distance)
+     *
+     * N
      */
     int findClosestBank(String banks, String partner) {
         var partnerCoords = partner.split(",");
